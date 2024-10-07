@@ -1,0 +1,48 @@
+{
+  "hosting": {
+    "source": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "region": "us-central1"
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log"
+      ]
+    }
+  ],
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "minsapventures",
+          "appId": "1:157787041363:android:757f023b0f33adf8e160a6",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "minsapventures",
+          "configurations": {
+            "android": "1:157787041363:android:757f023b0f33adf8e160a6",
+            "ios": "1:157787041363:ios:fafe3a237e1c1b6ae160a6",
+            "macos": "1:157787041363:ios:fafe3a237e1c1b6ae160a6",
+            "web": "1:157787041363:web:c62c6870884188e0e160a6",
+            "windows": "1:157787041363:web:d0850ca0ed70621ae160a6"
+          }
+        }
+      }
+    }
+  }
+}

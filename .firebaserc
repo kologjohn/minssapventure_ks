@@ -1,0 +1,13 @@
+{
+  "projects": {
+    "staging": "minsapventures",
+    "default": "minsapventures"
+  },
+  "targets": {},
+  "etags": {
+    "minsapventures": {
+      "extensionInstances": {}
+    }
+  },
+  "dataconnectEmulatorConfig": {}
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "157787041363",
+    "project_id": "minsapventures",
+    "storage_bucket": "minsapventures.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157787041363:android:757f023b0f33adf8e160a6",
+        "android_client_info": {
+          "package_name": "com.kologsoft.minssappventures"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANnNGpYXD994wao2nei666IF6w-bf1hZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
